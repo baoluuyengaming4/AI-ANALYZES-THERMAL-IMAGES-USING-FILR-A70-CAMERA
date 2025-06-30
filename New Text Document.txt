@@ -1,0 +1,20 @@
+https://youtu.be/JC0frnawBIM?si=vo30E7y2A4Af8beQ
+link hướng dẫn kết nối đến cam flir 
+filr camera setup
+step 1 : ENABLED CMD 
+setp 2 : ipconfig
+step 3 : 192.168.1 địa chỉ mạng con
+step 4 : open IPConfig 3 destop or advanced IP sacn
+step 5 : thay đổi địa chỉ ip cammera 
+step 6 : open IPConfig 3 nhấn vào biểu tượng mãnh gép răn cưa 
+step 7 : chọn vào mục thứ 2 use the following IP address ( lưu ý hãy chú ý mạng con của camera )
+step 8 : subnet mask 255.255.255.0
+step 9 : default gateway 192.196.10.155 tìm địa chỉ này phải trùng với địa chỉ được tìm tong máy tính
+step 10: oke 
+step 11: thay đổi địa chỉ ip của máy gốc 
+step 12: tìm kiếm view network connections
+step 11: nhấn oke nhấn chuột phải bào ethernet properties
+step 12: nhấn đúp internet protocol vesion 4(TPC/PV4)
+step 13: nhấn chọn mục thứ 2 use the followwing IP addess
+step 14: xem lại phần này tại phút 3:50 trong link 
+https://movitherm.com/support/how-to-connect-your-flir-a50-a70-a400-a700-camera-to-your-network/#toc_Conclusion

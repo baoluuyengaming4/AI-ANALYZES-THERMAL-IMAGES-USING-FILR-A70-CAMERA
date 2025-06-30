@@ -1,0 +1,43 @@
+192.168.10.9.1
+1. Chuẩn bị phần cứng và phần mềm
+Phần cứng :
+
+Máy ảnh FLIR A50 hoặc A70
+Cáp Ethernet để kết nối camera với máy tính
+Phần mềm :
+
+Cài đặt phần mềm FLIR Research Studio (hoặc FLIR Tools ) để xem và quản lý camera.
+Thư viện FLIR Atlas SDK nếu bạn muốn cài đặt chương trình trực tiếp với máy ảnh từ MATLAB hoặc Python.
+Ngoài ra, camera FLIR A50/A70 hỗ trợ giao thức Modbus TCP và RTSP , có thể cần thiết bị khi kết nối với hệ thống tự động hóa hoặc xem video.
+2. Kết nối phần cứng
+Kết nối camera và máy tính qua cáp Ethernet.
+Đảm bảo rằng địa chỉ IP của máy tính và camera phải nằm trong cùng một mạng:
+Camera thường sử dụng mặc định IP địa chỉ là 192.168.0.2, nên bạn có thể đặt máy tính IP là 192.168.0.x(với xkhác 2).
+Để thay đổi IP của camera, bạn có thể sử dụng phần mềm FLIR IP Config (có sẵn trong FLIR Tools).
+3. Cấu hình camera qua FLIR IP Config
+Open FLIR IP Config để tìm camera trên mạng. Máy ảnh sẽ hiển thị với hiện tại IP địa chỉ thông tin.
+Nếu cần, hãy thay đổi địa chỉ IP của máy ảnh để phù hợp với mạng của bạn và áp dụng cấu hình.
+4. Kiểm tra kết nối
+Sau khi cài đặt IP địa chỉ, mở FLIR Research Studio hoặc FLIR Tools .
+Kết nối đến camera theo địa chỉ IP mà bạn đã cấu hình.
+Camera sẽ hiển thị nhiệt độ video thực tế nếu kết nối thành công.
+5. Lập trình truy cập camera từ MATLAB
+Đảm bảo bạn đã cài đặt FLIR Atlas SDK for MATLAB .
+Trong MATLAB, bạn có thể sử dụng các hàm từ Atlas SDK để truy cập và xử lý hình ảnh từ máy ảnh.
+Ví dụ MATLAB:
+matlab
+
+Sao chép mã
+% Tải Atlas SDK vào MATLAB
+NET.addAssembly('path_to_FLIR_Atlas_SDK');
+
+% Kết nối đến camera theo IP
+camera = FLIR.Atlas.Live.Discovery.DiscoverCamera('192.168.0.2');
+
+% Bắt đầu luồng hình ảnh
+camera.Connect();
+frame = camera.GetImage();
+
+% Hiển thị hình ảnh
+imshow(frame);
+Với cách này, bạn có thể dễ dàng kết nối và lấy nhiệt độ hình ảnh từ camera FLIR A50/A70 để phân tích trong MATLAB.

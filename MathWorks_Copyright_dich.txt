@@ -1,0 +1,23 @@
+
+Bản quyền (c) 2016, The MathWorks, Inc.
+Tất cả quyền được bảo lưu.
+
+Việc phân phối và sử dụng dưới dạng mã nguồn và nhị phân, có hoặc không có sửa đổi, được phép với đ
+iều kiện là phải đáp ứng các điều khoản sau:
+
+* Các bản phân phối mã nguồn phải giữ lại thông báo bản quyền trên, danh sách điều khoản
+ và tuyên bố miễn trừ trách nhiệm sau đây.
+* Các bản phân phối dưới dạng nhị phân phải sao chép thông báo bản quyền trên, danh sách điều khoản
+ và tuyên bố miễn trừ trách nhiệm trong tài liệu và/hoặc các tài liệu khác đi kèm với bản phân phối.
+* Trong mọi trường hợp, phần mềm này và tất cả các sửa đổi và sản phẩm phái sinh của phần mềm phải 
+được cấp phép cho bạn chỉ để sử dụng cùng với các sản phẩm và dịch vụ của MathWorks.
+
+PHẦN MỀM NÀY ĐƯỢC CUNG CẤP BỞI CÁC CHỦ SỞ HỮU VÀ CÁC NGƯỜI ĐÓNG GÓP "NHƯ LÀ" VÀ CÁC BẢO ĐẢM CHUYÊN MÔN HOẶC NGỤ Ý, BAO 
+GỒM NHƯNG KHÔNG GIỚI HẠN BỞI CÁC BẢO ĐẢM NGỤ Ý VỀ TÍNH THỊ TRƯỜNG VÀ PHÙ HỢP VỚI MỤC ĐÍCH CỤ THỂ, ĐỀU BỊ TỪ CHỐI. TRONG
+ MỌI TRƯỜNG HỢP, CHỦ SỞ HỮU BẢN QUYỀN HOẶC CÁC NGƯỜI ĐÓNG GÓP SẼ KHÔNG CHỊU TRÁCH NHIỆM VỀ BẤT KỲ HỎI HÓC NÀO, BAO GỒM
+ NHƯNG KHÔNG GIỚI HẠN BỞI CÁC THIỆT HẠI TRỰC TIẾP, GIÁN TIẾP, TÌNH CỜ, ĐẶC BIỆT, MẪU MỰC HOẶC HẬU QUẢ (BAO GỒM, NHƯNG 
+KHÔNG GIỚI HẠN BỞI VIỆC MUA SẮM HÀNG HÓA VÀ DỊCH VỤ THAY THẾ; MẤT MÁT SỬ DỤNG, DỮ LIỆU, LỢI NHUẬN; HOẶC GIÁM NGHỈ KIN
+H DOANH) DÙ CÓ NGUYÊN NHÂN NHƯ THẾ NÀO VÀ DÙ CÓ THEO LÝ THUYẾT TRÁCH NHIỆM GÌ, DÙ LÀ HỢP ĐỒNG, TRÁCH NHIỆM CHẶT CHẼ, 
+HAY LỖI (BAO GỒM CẢ LỖI CẢI TIẾN HOẶC CÁC LÝ DO KHÁC) PHÁT SINH BỞI CÁC SỬ DỤNG PHẦN MỀM NÀY, DÙ CÓ ĐƯỢC CẢNH BÁO VỀ
+ CÁC KHẢ NĂNG CỦA THIỆT HẠI NHƯ VẬY.
+
